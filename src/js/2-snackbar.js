@@ -5,7 +5,7 @@ import "izitoast/dist/css/iziToast.min.css";
 const formEl = document.querySelector(".form");
 
 const delayEl = document.querySelector("input[name=delay]");
-
+delayEl.classList.add("delay");
 formEl.addEventListener('submit', onClickSubmit);
 
 function onClickSubmit(event) {
